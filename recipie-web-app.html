@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- FavIcon link -->
+    <link rel="icon" href="https://rajputvivek.netlify.app/favicon.ico" type="imgae/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Recipe APP</title>
+</head>
+
+<body>
+    <div class="hero_section padd-80">
+        <div class="container">
+            <div class="hero_heading">
+                <h1>Discover Exciting New Recipes Every Day</h1>
+                <p>Explore our vast collection of mouthwatering dishes from around the globe and bring culinary
+                    creativity to your kitchen!</p>
+                <form class="form_controal" action="">
+                    <button class="search_icon" type="submit"><i class="bi bi-search"></i></button>
+                    <input type="text" name="search" id="searchbox" placeholder="Search any food recipie..." required>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container padd-80 padd-bottom-0">
+        <div class="top_search">
+            <!-- <h2 class="section_tittle">Search popular keywords</h2> -->
+            <p class="search_for active">Cake</p>
+            <p class="search_for">Spaghetti Bolognese</p>
+            <p class="search_for">Chocolate</p>
+            <p class="search_for">Chicken</p>
+            <p class="search_for">Cheese</p>
+            <p class="search_for">Sandwich</p>
+            <p class="search_for">Pizza</p>
+            <p class="search_for">Salad</p>
+            <p class="search_for">Tacos</p>
+        </div>
+    </div>
+    <div class="container padd-80 msg">
+        <div class="msgbox">
+            <img src="images/not-foun.jpg" alt="">
+            <h1>Sorry! Recipe not found</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="recipes_wraapper padd-80"> </div>
+    </div>
+    <div class="popup_container"></div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
